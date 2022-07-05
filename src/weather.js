@@ -28,7 +28,7 @@ const Weather = () => {
             <input type="text" 
                 value={location} 
                 onChange={e => setLocation(e.target.value)} 
-                placeholder='Enter Your Location'
+                placeholder='Enter a City in the World'
                 onKeyPress={searchLocation}
                 />
             </div> 
